@@ -9,5 +9,5 @@
   <circle cx="24" cy="48" r="5" fill="#e5e5e5"/>
   <circle cx="40" cy="48" r="4" fill="#00e599" opacity="0.7"/>
   <!-- Wordmark -->
-  <text x="72" y="42" font-family="Geist, -apple-system, sans-serif" font-size="30" font-weight="600" fill="#e5e5e5" letter-spacing="-0.02em">epi<tspan font-style="italic">k</tspan></text>
+  <text x="72" y="42" font-family="Geist, -apple-system, sans-serif" font-size="30" font-weight="600" fill="#e5e5e5" letter-spacing="-0.02em">epik</text>
 </svg>
