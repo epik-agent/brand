@@ -1,2 +1,2 @@
-# brand
-Common branding elements
+# Branding
+_Common branding elements_
