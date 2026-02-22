@@ -1,7 +1,7 @@
 {
   "name": "@epik-agent/brand",
-  "version": "2.0.0",
-  "description": "Brand tokens, assets, and generated styles for the Epik product family",
+  "version": "3.0.0",
+  "description": "Brand elements for the Epik product family",
   "type": "module",
   "main": "dist/brand.js",
   "types": "dist/brand.d.ts",
