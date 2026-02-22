@@ -8,6 +8,7 @@
   "exports": {
     ".": {
       "import": "./dist/brand.js",
+      "require": "./dist/brand.js",
       "types": "./dist/brand.d.ts"
     },
     "./brand.json": "./brand.json",
