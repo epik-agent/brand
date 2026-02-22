@@ -75,7 +75,6 @@ const js = `// @epik-agent/brand – generated from brand.json – do not edit
 import brand from '../brand.json' with { type: 'json' };
 export default brand;
 export const name = brand.name;
-export const wordmark = brand.wordmark;
 export const tagline = brand.tagline;
 export const fonts = brand.fonts;
 export const palette = brand.palette;
@@ -137,8 +136,6 @@ export interface Logo {
 
 export interface Brand {
   name: string;
-  wordmark: string;
-  wordmarkNote: string;
   tagline: string;
   copyright: string;
   fonts: { sans: Font; mono: Font; };
@@ -151,7 +148,6 @@ export interface Brand {
 declare const brand: Brand;
 export default brand;
 export declare const name: string;
-export declare const wordmark: string;
 export declare const tagline: string;
 export declare const fonts: Brand['fonts'];
 export declare const palette: Brand['palette'];

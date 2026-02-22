@@ -1,11 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Epik",
-  "wordmark": "epik",
-  "wordmarkNote": "Lowercase with italic k",
-  "tagline": "You describe it. We build it.",
+  "tagline": "You say it. We make it.",
   "copyright": "Epik",
-
   "fonts": {
     "sans": {
       "family": "Geist",
@@ -18,7 +15,6 @@
       "source": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap"
     }
   },
-
   "palette": {
     "dark": {
       "bg": {
@@ -109,15 +105,14 @@
       }
     }
   },
-
   "logo": {
     "type": "node-graph-constellation",
     "description": "Four connected nodes forming an abstract network graph. Two nodes use the accent color, two use the foreground color.",
     "nodes": [
-      { "cx": 5, "cy": 5, "r": 2.5, "fill": "accent" },
-      { "cx": 17, "cy": 8, "r": 2.0, "fill": "foreground" },
-      { "cx": 8, "cy": 17, "r": 2.0, "fill": "foreground" },
-      { "cx": 14, "cy": 17, "r": 1.6, "fill": "accent", "opacity": 0.7 }
+      {"cx": 5, "cy": 5, "r": 2.5, "fill": "accent"},
+      {"cx": 17, "cy": 8, "r": 2.0, "fill": "foreground"},
+      {"cx": 8, "cy": 17, "r": 2.0, "fill": "foreground"},
+      {"cx": 14, "cy": 17, "r": 1.6, "fill": "accent", "opacity": 0.7}
     ],
     "edges": [
       [0, 1],
@@ -125,10 +120,9 @@
       [1, 3],
       [2, 3]
     ],
-    "edgeStyle": { "strokeWidth": 1.2, "opacity": 0.35, "stroke": "foreground" },
+    "edgeStyle": {"strokeWidth": 1.2, "opacity": 0.35, "stroke": "foreground"},
     "viewBox": "0 0 22 22"
   },
-
   "files": {
     "favicon": "assets/favicon.svg",
     "logoMarkDark": "assets/logo-mark-dark.svg",
@@ -136,7 +130,6 @@
     "logoFullDark": "assets/logo-full-dark.svg",
     "logoFullLight": "assets/logo-full-light.svg"
   },
-
   "meta": {
     "themeColorDark": "#0a0a0a",
     "themeColorLight": "#fafafa"
